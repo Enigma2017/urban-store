@@ -1,0 +1,31 @@
+@import "../utils/";
+
+body {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $secondary-font;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 24px;
+}
