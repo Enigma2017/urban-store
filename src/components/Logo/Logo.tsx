@@ -1,8 +1,6 @@
 import logoLight from '../../../public/assets/images/logo-light.webp';
 import logoDark from '../../../public/assets/images/logo-dark.webp';
 
-import styles from './Logo.module.scss';
-
 interface LogoProps {
   variant: 'light' | 'dark';
 }
