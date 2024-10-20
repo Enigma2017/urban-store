@@ -1,4 +1,4 @@
-@import "../utils/";
+@import '../utils/';
 
 body {
   font-family: $primary-font;
@@ -15,17 +15,59 @@ h4 {
 }
 
 h1 {
-  font-size: 80px;
+  @include text-style(80px, 600, 88px);
 }
 
 h2 {
-  font-size: 48px;
+  @include text-style(48px, 600, 52.8px);
 }
 
 h3 {
-  font-size: 40px;
+  @include text-style(40px, 600, 44px);
 }
 
 h4 {
-  font-size: 24px;
+  @include text-style(24px, 600, 26.4px);
+}
+
+.body {
+  &-large {
+    @include text-style(36px, 700, 39.6px);
+  }
+
+  &-medium {
+    &-bold {
+      @include text-style(28px, 700, 30.8px);
+    }
+
+    &-regular {
+      @include text-style(24px, 400, 26.4px);
+    }
+
+    &-1 {
+      @include text-style(20px, 700, 22px);
+    }
+  }
+
+  &-small {
+    &-bold {
+      @include text-style(18px, 700, 19.8px);
+    }
+
+    &-regular {
+      @include text-style(18px, 700, 19.8px);
+    }
+
+    &-1 {
+      @include text-style(16px, 700, 17.6px);
+    }
+
+    &-2 {
+      @include text-style(14px, 700, 15.4px);
+    }
+  }
+}
+
+.caption {
+  @include text-style(12px, 700, 13.2px);
 }

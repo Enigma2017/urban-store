@@ -1,11 +1,11 @@
 import { SVGProps, useMemo } from 'react';
 
-import sprites from '../../../public/assets/sprites.svg';
+import sprites from '../../../public/assets/svg/sprites.svg';
 import cn from 'classnames';
 import styles from './Icon.module.scss';
 
 // * Add new icon if it was added into file sprites.svg
-type IconType = '';
+type IconType = 'instagram' | 'facebook' | 'twitter';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   icon: IconType;
