@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ContactsPage from './pages/ContactsPage/ContactsPage';
+import '../scss/main.scss';
 
 function App() {
   return (
