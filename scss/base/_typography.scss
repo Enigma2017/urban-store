@@ -20,6 +20,9 @@ h1 {
 
 h2 {
   @include text-style(48px, 600, 52.8px);
+  color: var(--gray-very-dark-color);
+  text-transform: uppercase;
+  padding-bottom: 40px;
 }
 
 h3 {

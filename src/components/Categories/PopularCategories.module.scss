@@ -1,37 +1,73 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Два столбца одинаковой ширины */
-    height: 100vh; /* Высота контейнера */
-    gap: 10px; /* Расстояние между блоками */
+.container__popular {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .block1, .block2-1, .block2-2, .block2-3 {
+  .popularBlock__1, .popularBlock__21, .popularBlock__22, .popularBlock__23 {
     display: flex;
     align-items: flex-end; /* Текст внизу */
     padding: 10px; /* Отступы внутри блоков */
     font-size: 20px;
   }
 
-  .block1 {
-    background-color: lightblue;
+  .popularBlock__1 {
+    background: var(--purple-1-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    max-width: 652px;
+    height: 380px;
+}
+
+.popularBlock1, .popularBlock2{
+  max-width: 652px;
+  width: 652px;
+}
+
+  .popularBlock__2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
   }
 
-  .block2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr; /* Две строки: первая строка для блока 2.1, вторая строка для 2.2 и 2.3 */
-    grid-template-columns: 1fr 1fr; /* Два столбца одинаковой ширины для блока 2.2 и 2.3 */
-    gap: 10px;
-  }
-
-  .block2_1 {
+  .popularBlock__21 {
     grid-column: span 2; /* Блок 2.1 занимает всю ширину (2 колонки) */
     background-color: lightcoral;
     display: flex;
     align-items: flex-end;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    max-width: 652px;
+    height: 180px;
+
   }
 
-  .block2_2, .block2_3 {
+  .popularBlock22, .popularBlock23{
+    max-width: 316px;
+    width: 316px;
+  }
+
+  .popularBlock__22, .popularBlock__23 {
     background-color: lightgreen;
     display: flex;
     align-items: flex-end;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    max-width: 316px;
+    height: 180px;
   }
+
+  .link {
+    display: block;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
