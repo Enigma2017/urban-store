@@ -6,7 +6,7 @@
   .popularBlock__1, .popularBlock__21, .popularBlock__22, .popularBlock__23 {
     display: flex;
     align-items: flex-end; /* Текст внизу */
-    padding: 10px; /* Отступы внутри блоков */
+    padding: 24px 24px 20px; /* Отступы внутри блоков */
     font-size: 20px;
   }
 
@@ -33,7 +33,7 @@
   }
 
   .popularBlock__21 {
-    grid-column: span 2; /* Блок 2.1 занимает всю ширину (2 колонки) */
+    grid-column: span 2;
     background-color: lightcoral;
     display: flex;
     align-items: flex-end;
