@@ -1,12 +1,12 @@
+import React from "react";
 import SearchIcon from "../../components/Icon/SearchIcon";
-import styles from './Header.module.scss';
 
-const SearchPanel = () => {
+const SearchPanel: React.FC = () => {
     return (
-        <button className={styles.header__search}>
-            <SearchIcon/>
-        </button>
-    )
+        <>
+            <SearchIcon />
+        </>
+    );
 };
 
-export default SearchPanel
+export default SearchPanel;

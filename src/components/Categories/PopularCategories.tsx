@@ -13,7 +13,7 @@ const PopularCategories: FC = () => {
                     <div className={styles.popularBlock1}>
                         <Link to="/" className={styles.link}>
                             <div className={styles.popularBlock__1}>
-                                Shop Evangelion Store
+                                Clothes
                             </div>
                         </Link>
                     </div>
@@ -21,22 +21,22 @@ const PopularCategories: FC = () => {
                         <div>
                             <Link to="/" className={styles.link}>
                                 <div className={styles.popularBlock__21}>
-                                Shop Home Entertainment
+                                    Anime
                                 </div>
                             </Link>
                         </div>
                         <div className={styles.popularBlock__2}>
                             <div className={styles.popularBlock22}>
-                                <Link to="/" className={styles.link}>
+                                <Link to="/" className={styles.link_dark}>
                                     <div className={styles.popularBlock__22}>
-                                        Anime Bedding
+                                        Accessories
                                     </div>
                                 </Link>
                             </div>
                             <div className={styles.popularBlock23}>
-                                <Link to="/" className={styles.link}>
+                                <Link to="/" className={styles.link_dark}>
                                     <div className={styles.popularBlock__23}>
-                                        Limited
+                                        Health & Beauty
                                     </div>
                                 </Link>
                             </div>

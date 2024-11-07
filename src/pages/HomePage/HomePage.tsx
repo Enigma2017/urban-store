@@ -1,16 +1,13 @@
 import PopularCategories from '../../components/Categories/PopularCategories';
 import MainCategories from '../../components/MainCategories/MainCategories';
+import styles from './HomePage.module.scss';
 const HomePage = () => {
   return (
-  <div className="main-content">
-     <div className="">
+    <div>
       <MainCategories />
-    </div>
-    <div className="">
+      <div className={styles.divider}></div>
       <PopularCategories />
     </div>
-    
-  </div>
 );
 };
 

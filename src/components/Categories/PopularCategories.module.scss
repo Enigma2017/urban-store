@@ -1,3 +1,7 @@
+.popularCategories {
+  margin: 80px 0;
+}
+
 .container__popular {
     display: flex;
     justify-content: space-between;
@@ -34,7 +38,7 @@
 
   .popularBlock__21 {
     grid-column: span 2;
-    background-color: lightcoral;
+    background-color: var(--orange-color);
     display: flex;
     align-items: flex-end;
     border-radius: 12px;
@@ -53,7 +57,6 @@
   }
 
   .popularBlock__22, .popularBlock__23 {
-    background-color: lightgreen;
     display: flex;
     align-items: flex-end;
     border-radius: 12px;
@@ -65,9 +68,23 @@
     height: 180px;
   }
 
-  .link {
+  .popularBlock__22{
+    background-color: var(--light-orange-2-color);
+  }
+
+  .popularBlock__23{
+    background-color: var(--light-orange-color);
+  }
+
+.link {
     display: block;
     color: var(--white-color);
     text-decoration: none;
+}
+
+.link_dark {
+  display: block;
+  color: var(--black-color);
+  text-decoration: none;
 }
 

@@ -1,17 +1,21 @@
+.popularCategories {
+  margin: 80px 0;
+}
+
 .container__popular {
     display: flex;
     justify-content: space-between;
   }
 
-  .popularBlock__1, .popularBlock__21, .popularBlock__22, .popularBlock__23 {
+  .popularBlock__1, .popularBlock__21, .popularBlock__22, .popularBlock__23, .popularBlock__222, .popularBlock__233, .popularBlock__234 {
     display: flex;
     align-items: flex-end; /* Текст внизу */
-    padding: 10px; /* Отступы внутри блоков */
+    padding: 24px 24px 20px;
     font-size: 20px;
   }
 
   .popularBlock__1 {
-    background: var(--purple-1-color);
+    background: var(--orange-color);
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -34,7 +38,7 @@
 
   .popularBlock__21 {
     grid-column: span 2; /* Блок 2.1 занимает всю ширину (2 колонки) */
-    background-color: lightcoral;
+    background-color: var(--purple-1-color);
     display: flex;
     align-items: flex-end;
     border-radius: 12px;
@@ -52,8 +56,7 @@
     width: 316px;
   }
 
-  .popularBlock__22, .popularBlock__23 {
-    background-color: lightgreen;
+  .popularBlock__22, .popularBlock__23, .popularBlock__222, .popularBlock__233 {
     display: flex;
     align-items: flex-end;
     border-radius: 12px;
@@ -65,10 +68,36 @@
     height: 180px;
   }
 
+  .popularBlock__22 {
+    background-color: var(--purple-3-color);
+  }
+
+  .popularBlock__222 {
+    background-color: var(--purple-4-color);
+  }
+
+  .popularBlock__23 {
+    background-color: var(--light-orange-color);
+  }
+
+  .popularBlock__233 {
+    background-color: var(--light-orange-2-color);
+  }
+
+  .popularBlock__234 {
+    background-color: var(--purple-2-color);
+  }
+
   .link {
     display: block;
     color: var(--white-color);
     text-decoration: none;
+}
+
+.link_dark {
+  display: block;
+  color: var(--black-color);
+  text-decoration: none;
 }
 
 .popularBottom{
@@ -84,9 +113,8 @@
     max-width: 652px;
     height: 180px;
  }
- .popularBlock__21 {
+ .popularBlock__21, .popularBlock__234 {
     grid-column: span 2; /* Блок 2.1 занимает всю ширину (2 колонки) */
-    background-color: lightcoral;
     display: flex;
     align-items: flex-end;
     border-radius: 12px;

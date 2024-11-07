@@ -11,24 +11,24 @@ const MainCategories: FC = () => {
         <div className={styles.container__popular}>
           <div className={styles.popularBlock1}>
             <Link to="#" className={styles.link}>
-              <div className={styles.popularBlock__1}>Name 1</div>
+              <div className={styles.popularBlock__1}>Clothes</div>
             </Link>
           </div>
           <div className={styles.popularBlock2}>
             <div>
               <Link to="#" className={styles.link}>
-                <div className={styles.popularBlock__21}>Name 2</div>
+                <div className={styles.popularBlock__21}>Manga / Books</div>
               </Link>
             </div>
             <div className={styles.popularBlock__2}>
               <div className={styles.popularBlock22}>
                 <Link to="#" className={styles.link}>
-                  <div className={styles.popularBlock__22}>Name 3</div>
+                  <div className={styles.popularBlock__22}>Anime</div>
                 </Link>
               </div>
               <div className={styles.popularBlock23}>
-                <Link to="#" className={styles.link}>
-                  <div className={styles.popularBlock__23}>Name 4</div>
+                <Link to="#" className={styles.link_dark}>
+                  <div className={styles.popularBlock__23}>Accessories</div>
                 </Link>
               </div>
             </div>
@@ -37,20 +37,20 @@ const MainCategories: FC = () => {
         <div className={styles.popularBottom}>
           <div className={styles.popularBottom2}>
             <div className={styles.popularBlock22}>
-              <Link to="#" className={styles.link}>
-                <div className={styles.popularBlock__22}>Name 5</div>
+              <Link to="#" className={styles.link_dark}>
+                <div className={styles.popularBlock__222}>Spices</div>
               </Link>
             </div>
 
             <div className={styles.popularBlock23}>
-              <Link to="#" className={styles.link}>
-                <div className={styles.popularBlock__23}>Name 6</div>
+              <Link to="#" className={styles.link_dark}>
+                <div className={styles.popularBlock__233}>Health & Beauty</div>
               </Link>
             </div>
           </div>
           <div>
             <Link to="#" className={styles.link}>
-              <div className={styles.popularBlock__21}>Name 7</div>
+              <div className={styles.popularBlock__234}>Others</div>
             </Link>
           </div>
         </div>

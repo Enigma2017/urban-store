@@ -67,6 +67,11 @@
   display: flex;
 }
 
+.header__logo{
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 .header__menuItems {
   display: flex;
   gap: 50px;
@@ -97,4 +102,38 @@
   background-color: inherit;
   color: var(--white-color);
   margin-top: 5px;
+}
+
+.header__searchPanelInput{
+  max-width: 876px;
+  width: 876px;
+}
+
+.header__searchInput{
+  width: 75%;
+  border: none;
+  height: 58px;
+  padding: 19px 32px;
+  margin-right: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.header__searchButton{
+  width: 20%;
+  height: 58px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: var(--purple-5-color);
+  color: var(--black-color);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
 }
