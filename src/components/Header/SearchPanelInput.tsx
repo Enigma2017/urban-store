@@ -8,6 +8,7 @@ const SearchPanelInput: React.FC = () => {
                 type="text"
                 placeholder="Search item..."
                 className={styles.header__searchInput}
+                maxLength={40}
             />
             <button className={styles.header__searchButton}>Search</button>
         </div>
