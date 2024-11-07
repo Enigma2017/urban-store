@@ -79,16 +79,22 @@
   }
 }
 
-svg {
-  color: white;
-}
-
 .header__menuList {
   display: flex;
   gap: 20px;
+  margin-top: 10px;
 }
 
 .header__menuIcons{
   display: flex;
   gap: 20px;
+}
+
+.header__search, .header__arrowBtn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: var(--white-color);
+  margin-top: 5px;
 }
