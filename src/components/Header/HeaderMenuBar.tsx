@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import { Link } from 'react-router-dom';
+import SearchPanel from './SearchPanel';
+import HeartIcon from '../Icon/HeartIcon';
+import ProfileIcon from '../Icon/ProfileIcon';
+import CartIcon from '../Icon/CartIcon';
+import ArrowDownMenuIcon from '../Icon/ArrowDownMenuIcon';
 
 
 const HeaderMenuBar: React.FC = () => {
@@ -18,9 +23,7 @@ const HeaderMenuBar: React.FC = () => {
                         <li>
                             <Link to="/catalog">
                                 Catalog 
-                                <button>
-                                    <img src="/assets/images/arrow-down.png" alt="arrow" />
-                                </button>
+                                <button className={styles.header__arrowBtn}><ArrowDownMenuIcon /></button>
                             </Link>
                         </li>
                         <li><Link to="/sale">Sale</Link></li>
@@ -30,8 +33,10 @@ const HeaderMenuBar: React.FC = () => {
                 </nav>
                 <nav className={styles.header__menuItems}>
                     <ul className={styles.header__menuIcons}>
-                        <li><Link to="/login">Login</Link></li>
-                        <li><Link to="/register">Register</Link></li>
+                        <li><SearchPanel /></li>
+                        <li><Link to="/favourites"><HeartIcon /></Link></li>
+                        <li><Link to="/profile"><ProfileIcon /></Link></li>
+                        <li><Link to="/cart"><CartIcon /></Link></li>
                     </ul>
                 </nav>
             </div>
