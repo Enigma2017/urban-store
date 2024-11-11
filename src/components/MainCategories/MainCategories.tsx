@@ -6,7 +6,7 @@ import { FC } from 'react';
 const MainCategories: FC = () => {
   return (
     <Layout>
-      <div className={styles.popularCategories}>
+      <div className={styles.popularCategories} id="categories">
         <h2>Categories</h2>
         <div className={styles.container__popular}>
           <div className={styles.popularBlock1}>

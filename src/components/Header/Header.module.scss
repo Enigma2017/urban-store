@@ -137,3 +137,26 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+.header__banner{
+  background: url("../../assets/images/header-banner.png") top no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 728px;
+}
+
+.header__banner__title{
+  font-size: 78px;
+  color: var(--purple-1-color);
+  text-transform: uppercase;
+  max-width: 724px;
+  padding: 128px 0 62px;
+}
+
+.header__banner__arrow1, .header__banner__arrow2{
+  cursor: pointer;
+}
+
+.header__banner__arrow1{
+  margin-left: 21px;
+}
