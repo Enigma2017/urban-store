@@ -17,10 +17,10 @@ const HeaderBanner: React.FC = () => {
                 <h1 className={styles.header__banner__title}>Discover the Essence of the East in One Marketplace</h1>
                 <div onClick={scrollToSection}>
                     <div className={styles.header__banner__arrow1}>
-                        <img src='../../public/assets/images/arrow1.png' alt="arrow1" />
+                        <img src='../../assets/images/arrow1.png' alt="arrow1" />
                     </div>
                     <div className={styles.header__banner__arrow2}>
-                        <img src='../../public/assets/images/arrow2.png' alt="arrow2" />
+                        <img src='../../assets/images/arrow2.png' alt="arrow2" />
                     </div>
                 </div>
             </Layout>
