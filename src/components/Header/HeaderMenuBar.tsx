@@ -36,7 +36,7 @@ const HeaderMenuBar: React.FC = () => {
                     </Link>
                   </li>
                   <li><Link to="/sale">Sale</Link></li>
-                  <li><Link to="/about">About us</Link></li>
+                  <li><Link to="/product">About us</Link></li>
                   <li><Link to="/contacts">Contacts | space </Link></li>
                 </ul>
               </nav>
