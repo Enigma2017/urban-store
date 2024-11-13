@@ -5,7 +5,7 @@ $secondary-font: "Rubik", sans-serif;
 // Colors
 $white-color: #ffffff;
 $gray-color: #ececec;
-$gray-dark-color: #ececec; // Цвет идентичен $gray-color
+$gray-dark-color: #cccccc;
 $gray-very-dark-color: #404040;
 $black-color: #000000;
 
@@ -25,12 +25,11 @@ $light-orange-2-color: #ffebe1;
     --secondary-font: #{$secondary-font};
 
     // colors
-    
+    --black-color: #{$black-color};
     --white-color: #{$white-color};
     --gray-color: #{$gray-color};
-    --gray-dark-color: #{$gray-dark-color};
     --gray-very-dark-color: #{$gray-very-dark-color};
-    
+    --gray-dark-color: #{$gray-dark-color};
     --purple-1-color: #{$purple-1-color};
     --purple-2-color: #{$purple-2-color};
     --purple-3-color: #{$purple-3-color};

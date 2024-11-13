@@ -1,0 +1,13 @@
+.breadcrumb{
+    padding: 8px 24px;
+    background: var(--purple-5-color);
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    max-width: 200px; 
+    max-height: 52px;
+    white-space: nowrap; 
+    overflow: hidden; 
+}
